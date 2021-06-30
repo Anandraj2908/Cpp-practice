@@ -1,0 +1,1 @@
+{"name":"Local: addbinarynos","url":"c:\\Users\\aditr\\Desktop\\C++\\addbinarynos.cpp","tests":[{"id":1623241569360,"input":"110110\n1010","output":"64 in decimal\n1000000 in binary"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\aditr\\Desktop\\C++\\addbinarynos.cpp","group":"local","local":true}
