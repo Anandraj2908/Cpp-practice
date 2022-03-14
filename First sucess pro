@@ -1,0 +1,37 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    string name1;
+    cout<<"enter your name"<<endl;
+    
+    int quantity1;
+    cout<<"enter quantity"<<endl;
+
+    int price;
+    cout<<"enter price per piece"<<endl;
+
+    cin>>name1>>quantity1>>price;
+
+    string name2;
+    cout<<"enter your name"<<endl;
+
+    int quantity2;
+    cout<<"enter quantity"<<endl;
+
+    int price1;
+    cout<<"enter price per price"<<endl;
+
+    cin>>name2>>quantity2>>price1;
+
+    int tp1=price*quantity1;
+    int tp2=price1*quantity2;
+    
+    int tp=tp1+tp2;
+    
+    cout<<tp<<endl;
+
+
+}   
+    
