@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    char ch;
+    int countSL=0;
+    int countLL=0;
+    int countSS=0;
+    while(ch !='$'){
+        ch=cin.get();
+        if(ch>=97 && ch<=122){
+            countSL++;
+        }
+        else if(ch>=48 && ch<=57){
+            countLL++;
+        }
+        else if(ch==' '|| ch=='\n'|| ch=='\t'){
+            countSS++;
+        }
+    }
+    cout<<countSL<<" "<<countLL<<" "<<countSS<<endl;
+}

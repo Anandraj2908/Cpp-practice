@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    int currentN;
+    int checkN=0;
+    while(n>0){
+      currentN=n%10;
+      n=n/10;
+      if(currentN >0){
+          checkN++;
+      }
+      if(checkN>0){
+          cout<<currentN;
+      }
+    }
+}
