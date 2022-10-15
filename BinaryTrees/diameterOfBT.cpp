@@ -94,9 +94,11 @@ pair<int, int> heightDiameter(BinaryTreeNode<int>* root){
 
 int main() {
     BinaryTreeNode<int>* root = takeInput();
-   cout<<"Output"<<endl;
+    cout<<"Output"<<endl;
     pair<int,int> p=heightDiameter(root);
     cout<<"Height:"<<p.first<<endl;
     cout<<"Diameter:"<<p.second<<endl;
     delete root;
 }
+
+//not getting te output just understand the function returning two values
