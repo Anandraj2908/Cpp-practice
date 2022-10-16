@@ -75,6 +75,7 @@ pair<int, int> heightDiameter(BinaryTreeNode<int>* root){
         pair<int,int> p;
         p.first=0;
         p.second=0;
+        return p;
     }
 
     pair<int,int> leftAns = heightDiameter(root->left);
