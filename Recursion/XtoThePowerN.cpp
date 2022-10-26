@@ -14,7 +14,7 @@ int power(int x, int n) {
     int ans=x*power(x,n-1);
     return ans;
 }
-
+//main fn
 
 int main(){
     int x, n;
